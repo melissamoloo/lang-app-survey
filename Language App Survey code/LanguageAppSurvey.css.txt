@@ -1,0 +1,116 @@
+
+body {
+  text-align: center;
+  font-family: Georgia, Serif;
+  text-shadow:
+		-1px -1px 0 #000;
+  font-size: 20px;
+  color: white;
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.5),
+      rgba(136, 136, 206, 0.8)
+    ),url(https://media.wired.com/photos/59269e297034dc5f91bec142/191:100/pass/world-song-map-largeHP.jpg);
+  
+}
+
+h1 {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 9px;
+  background-color: rgba(76, 175, 80, 0.3);
+  
+}
+h2, h3 {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 9px;
+  background-color: rgba(76, 175, 80, 0.3);
+}
+
+#survey-form {
+  width: 900px;
+  margin: 0 auto;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 9px;
+  background-color: rgba(76, 175, 80, 0.5)
+}
+
+.row-tab {
+  display: block;
+  padding-top: 20px;
+}
+
+.label-lang {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+}
+
+.input-lang {
+  display: inline-block;
+  text-align: left;
+  width: 48%
+}
+
+.select-input {
+  display: inline-block;
+  text-align: left;
+  width: 48%
+}
+
+.label-select {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+}
+
+.labels-radio {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+  vertical-align: top;
+}
+.input-radio {
+  display: inline-block;
+  text-align: left;
+  width: 48%
+}
+
+.checkbox-labels {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+  vertical-align: top;
+}
+
+.checkbox-input {
+  display: inline-block;
+  text-align: left;
+  width: 48%
+}
+
+.button {
+  padding: 20px;
+  background-color: #4CAF50;
+  font: Georgia;
+  font-weight: bold;
+  font-size: 17px;
+  border: none;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+  font-size: 10px;
+}
+
+textarea {
+  width: 400px;
+  text-align: center;
+  color: purple;
+  opacity: 0.6;
+  font-size: 16px;
+}
+
+
